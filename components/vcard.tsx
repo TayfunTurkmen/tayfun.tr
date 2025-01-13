@@ -11,9 +11,11 @@ export function Vcard() {
           <p className="text-gray-300 mb-6">Web Developer</p>
           <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500">
             <Image
-              src="../tt.png?height=128&width=128"
+              src="tt.png"
               alt="Tayfun Türkmen"
               className="w-full h-full object-cover"
+              height="128"
+              width="128"
             />
           </div>
         </div>

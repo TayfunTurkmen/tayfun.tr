@@ -14,8 +14,8 @@ export function Vcard() {
               src="tt.png"
               alt="Tayfun Türkmen"
               className="w-full h-full object-cover"
-              height="128"
-              width="128"
+              height={128}
+              width={128}
             />
           </div>
         </div>

@@ -1,7 +1,8 @@
 'use client'
 
-import { Github, Linkedin, Mail } from "lucide-react"
-import Image from 'next/image'
+import { Github, Linkedin, Mail } from "lucide-react";
+import Image from 'next/image';
+import profilePic from "../tt.png";
 export function Vcard() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 p-4">
@@ -11,7 +12,7 @@ export function Vcard() {
           <p className="text-gray-300 mb-6">Web Developer</p>
           <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500">
             <Image
-              src="tt.png"
+              src={profilePic}
               alt="Tayfun Türkmen"
               className="w-full h-full object-cover"
               height={128}
